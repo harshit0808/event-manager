@@ -1,0 +1,31 @@
+# --- Java/Maven (Backend) ---
+/event-manager/target/
+/event-manager/.idea/
+/event-manager/*.iml
+/event-manager/logs/
+*.log
+
+# --- Node.js (Frontend) ---
+/event-manager-ui/node_modules/
+/event-manager-ui/dist/
+/event-manager-ui/.npm
+/event-manager-ui/.env
+/event-manager-ui/.env.local
+
+# --- OS files ---
+.DS_Store.env
+.env.*
+!.env.example
+**/application-local.properties
+**/target/
+**/node_modules/
+**/dist/
+**/.idea/
+*.iml
+*.class
+*.log
+*.userlibraries
+*.eml
+.classpath
+.project
+.settings/
